@@ -47,7 +47,7 @@ int main(void){
     /*variables*/
     int a,b,gcd;
     char repeat = 'Y';
-    int i = 0, j, k;
+    int i = 0, j, k, l;
 
     /*repeats program until input*/
     while(repeat == 'y' || repeat == 'Y'){
@@ -120,7 +120,7 @@ int main(void){
             /*while input is wrong ask for new input*/
             do{
                 if(i > 0) printf("Please type a valid character. (y/n)\n");
-                scanf(" %c",&repeat);
+                l = scanf(" %c",&repeat);
                 fflush(stdin);
                 i++;
             } while (repeat != 'n' && repeat != 'N' && repeat != 'y' && repeat != 'Y');
