@@ -10,5 +10,14 @@ Programa de fácil leitura e compreensão, que informa o Máximo Divisor Comum e
 
 ## COMPILING
 
+### Default
+
 gcc euclides.c -O2 -pipe -o euclides
 
+### Extended - Linux
+
+gcc extendedEuclidesLinux.c -O2 -pipe -o extendedEuclides
+
+### Extended - Windows
+
+gcc extendedEuclidesWindows.c -O2 -pipe -o extendedEuclides
